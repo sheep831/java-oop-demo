@@ -1,4 +1,4 @@
-package com.desk.java.demo;
+package game.demo;
 
 public class Animal {
     String name;

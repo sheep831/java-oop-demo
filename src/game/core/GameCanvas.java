@@ -1,11 +1,11 @@
-package com.desk.java.demo;
+package game.core;
 
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class GameCanvas extends Canvas {
-    private List<Shape> shapeList = new ArrayList<Shape>();
+    private List<game.core.Shape> shapeList = new ArrayList<game.core.Shape>();
     public GameCanvas() {
         this.setSize(300, 300);
         this.setBackground(Color.white);
@@ -14,7 +14,7 @@ public class GameCanvas extends Canvas {
         shapeList.add(player);
     }
 
-    public void addShape(Shape shape) {
+    public void addShape(game.core.Shape shape) {
         this.shapeList.add(shape);
     }
 

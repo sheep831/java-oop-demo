@@ -1,6 +1,8 @@
-package com.desk.java.demo;
+package game.demo;
 
-public class Cat extends Animal{
+import game.demo.Animal;
+
+public class Cat extends Animal {
     public Cat(String name) {
         super(name);
     }

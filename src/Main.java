@@ -1,6 +1,6 @@
-import com.desk.java.demo.Animal;
-import com.desk.java.demo.Cat;
-import com.desk.java.demo.GameWindow;
+import game.demo.Animal;
+import game.demo.Cat;
+import game.core.GameWindow;
 
 public class Main {
     public static void main(String[] args) {

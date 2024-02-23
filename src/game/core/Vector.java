@@ -1,4 +1,4 @@
-package com.desk.java.demo;
+package game.core;
 
 public class Vector {
     public int x;

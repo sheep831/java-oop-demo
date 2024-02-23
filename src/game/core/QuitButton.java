@@ -1,4 +1,4 @@
-package com.desk.java.demo;
+package game.core;
 
 import java.awt.*;
 import java.awt.event.MouseEvent;
